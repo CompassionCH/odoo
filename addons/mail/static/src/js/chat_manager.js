@@ -750,7 +750,7 @@ var chat_manager = {
         if ('ids' in options) {
             // get messages from their ids (chatter is the main use case)
             return fetch_document_messages(options.ids, options).then(function(result) {
-                chat_manager.mark_as_read(options.ids);
+                // chat_manager.mark_as_read(options.ids);
                 return result;
             });
         }

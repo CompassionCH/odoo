@@ -191,6 +191,8 @@ class IrModelFieldsAnonymizeWizard(models.TransientModel):
                     anonymized_value = 0.0
                 elif field_type == 'integer':
                     anonymized_value = 0
+                elif field_type in ('phone', 'fax'):
+                    anonymized_value = 'xxx' + sid
                 elif field_type in ['binary', 'many2many', 'many2one', 'one2many', 'reference']:  # cannot anonymize these kind of fields
                     raise UserError('%s: %s' % (error_type, _("Cannot anonymize fields of these types: binary, many2many, many2one, one2many, reference.")))
 

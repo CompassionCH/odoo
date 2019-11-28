@@ -1115,7 +1115,15 @@ class MailThread(models.AbstractModel):
                 ('alias_name', '=', email_to_localpart)
             ])
             if other_alias and other_alias.alias_model_id.model != reply_model:
-                is_a_reply = False
+                # COMPASSION PATCH : If sponsor answers to an Odoo mail, we want to notify the author of original message
+                if other_alias.alias_model_id.model == 'mail.channel' and reply_model == 'res.partner':
+                    original_mess = MailMessage.search([('message_id', '=', in_reply_to)])
+                    message_dict.update({
+                        'partner_ids': [(6, 0, original_mess.author_id.ids)],
+                        'channel_ids': [(6, 0, [other_alias.alias_force_thread_id])]
+                    })
+                elif other_alias.alias_model_id.model != 'mail.channel':
+                    is_a_reply = False
 
         if is_a_reply:
             model, thread_id = mail_messages.model, mail_messages.res_id

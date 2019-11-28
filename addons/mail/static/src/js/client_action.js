@@ -423,18 +423,6 @@ var ChatAction = Widget.extend(ControlPanelMixin, {
         this.action.context.active_ids = [channel.id];
 
         return this.fetch_and_render_thread().then(function () {
-            // Mark channel's messages as read and clear needactions
-            if (channel.type !== 'static') {
-                // Display snackbar if needactions have been cleared
-                if (channel.needaction_counter > 0) {
-                    self.render_snackbar('mail.chat.UndoSnackbar', {
-                        nb_needactions: channel.needaction_counter,
-                    });
-                }
-                chat_manager.mark_channel_as_seen(channel);
-                self.clear_needactions_def = chat_manager.mark_all_as_read(channel);
-            }
-
             // Update control panel
             self.set("title", '#' + channel.name);
             // Hide 'invite', 'unsubscribe' and 'settings' buttons in static channels and DM

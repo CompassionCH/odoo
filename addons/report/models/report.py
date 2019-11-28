@@ -376,7 +376,7 @@ class Report(models.Model):
         if not save_in_attachment:
             save_in_attachment = {}
 
-        command_args = []
+        command_args = ['--disable-smart-shrinking', '--print-media-type']
         if set_viewport_size:
             command_args.extend(['--viewport-size', landscape and '1024x1280' or '1280x1024'])
 

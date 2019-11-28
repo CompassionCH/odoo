@@ -1724,6 +1724,7 @@ core.form_widget_registry
     .add('email', FieldEmail)
     .add('url', FieldUrl)
     .add('text',FieldText)
+    .add('basic_domain', FieldCharDomain)
     .add('char_domain', FieldCharDomain)
     .add('date', FieldDate)
     .add('datetime', FieldDatetime)
