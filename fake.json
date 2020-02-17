@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "compassion-mobile-app",
+  "private_key_id": "b212a4e8913743100c87002e47e923b8e45a8778",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9Ts7JpGHMbKjM\n27pUpcZBdlzSQwsC1ZVn7yHyqd4uZasdTRp6Et+8fE1p1S+ZKz/259yE6j3DmJT9\nkSMEDPOFr2GIjaerpWHkIaYTFYIkyELSSSwUwPRGBkBaEI77Gd9e44mAmg7EK1+5\nNjOjyQFjHg/6KXB+BFsN7lodv5wg8hTeatOks\nOq4gLXzSY4ni0dOCzH8QJQhNhk9VzAEErxqS4sXYMTiiSlZSK8222wU9jFutky8K\neeTET8rGQMmeCQa81G18DqdPLXJU1CDuwO2WtpsioqXNPN72Syf1MU7fWUpLctWP\nwhYSr/0fAgMBAAECggEAQ+m8x5wANc0ZdXyySOG70Qo8XHYOwjKLSeEBBcQo3+47\nR+S8ReT1fPH+96OyUrmwVcxyUQCTrdLUSG9D55UZ2/DCBbID39ER4DyuDpSdvsJV\nLolvlfZu65wcg/MCyFRMzQbF8mvSNk/1JEWsmupmY/+J7c3l/F9lpwbGL3vo7+wp\nyMXNjNSCxm/hX0V8tJiT+zuZ5tteixmhUVImOK2mJDWdZOup31C0FMaZ4RaglcvR\nRd9MKojnPker3a7RpyVnmsvoIsobAMuN7ahNb72NCBYY8w/HWWNoh2RLCjXJEDG6\nSqmLvjU4h3j7ZbGwC4CD8C8bcDUVAkteNn/TE4qGeQKBgQD3TQwM9ZmJY+Opav7E\nWRd+YtVLPbQ0ZJJfELpDWoZp0PcMbESQRYYyxYAxCAxnYNcb1S4UaSVWXSr9zj+U\nSnSIjg20ZhdBxI+7ZPhBeVNXGy4HxlZma9FJIiOZVV6WCrm2rP1cAYdpt/u/jbbM\nb8NBCuoorxOO5M+gbccKNvSMUwKBgQDD94fjPCvKv+7LeoxkdJMETYFZrN+MyR6B\nmXoKmH0L6GTL1TSAbt2ULCB5ETpBXmhVqA40RxsGVAA09JzuwrQuNw9221TDuokD\nao2t9pQWfP3cmtV51airkSsg+1AEZGEkQBbAqBDAaHJoQraP0VFpO3OLuHiiLdP4\nweDPQn3ShQKBgQDxs38Ep4IhctyOuAE6fGzm3Mfk2vDmiCk6+slhjPd0MoVSwfqd\nGyZXNwrcYSZmX5K+JDP+ROn2J+cd2tfvInoVAOnKGEHAyNFF8SBmNaNLrkfl12aY\ngeYx2Uj70yE3+lGahia2JtRncid+B47S7qTiTD2h98Ng1KdNAB4aEK4g+wKBgEiL\naNWZH8kFtlvDORezA/2yx3CwC22twkpNy50CiEARPscqXS4yXHqOv1KyKvOqBEu5\nU9DMhdeY3x67cyD8GQGGxoXEeiOe+Tu3hU1iG74bdUrmUqKwkqk4q1OhVSTbGA74\nXrPhQ5pG0BuCntysq0ueg460souvFWpgM13mineVAoGBAM506RrPgJKS+hF8464P\nQKqSJOjfgmS+yXslmk1lCsM4lJ8+b0qknVs+TKxIXbp1jV2AMatFxs/rJjbk6KYL\niSVWMysZ7/QJLTve/ORjhugNACeGgClnJl1QpqE1dSzNY14PWs/Tw86KOGB6/6hl\nkK8G60/LRZgWLEgqPlSMXkJV\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-rq1gk@compassion-mobile-app.iam.gserviceaccount.com",
+  "client_id": "106864359767428826231",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-rq1gk%40compassion-mobile-app.iam.gserviceaccount.com"
+}
